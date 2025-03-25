@@ -8,12 +8,12 @@ const PORT =process.env.PORT ||8000
 connectDB()
 const app=express()
 app.use(cors({
-    origin: 'https://tms.netlify.app', // Replace with your frontend's origin
+    origin: 'https://fs4956.netlify.app', // Replace with your frontend's origin
     methods: 'GET,POST,PUT,DELETE',
     allowedHeaders: 'Content-Type,Authorization', // Include 'Authorization' here
   }));
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "https://tms.netlify.app");
+    res.header("Access-Control-Allow-Origin", "https://fs4956.netlify.app");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
