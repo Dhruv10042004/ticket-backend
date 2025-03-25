@@ -1,5 +1,5 @@
  import axios from 'axios'
-const API_URL='https://ticket-backend-3.onrender.com/'
+const API_URL='https://ticket-backend-5.onrender.com/'
 //Register user
 const register=async(userData)=>{
     const response = await axios.post(API_URL,userData)
@@ -10,7 +10,7 @@ const register=async(userData)=>{
     return response.data
 }
 const login=async(userData)=>{
-    const response = await axios.post('https://ticket-backend-3.onrender.com/login',userData)
+    const response = await axios.post('https://ticket-backend-5.onrender.com/login',userData)
     console.log(response.data)
     if(response.data)
     {
