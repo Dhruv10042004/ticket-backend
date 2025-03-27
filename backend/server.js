@@ -13,7 +13,7 @@ app.use(cors({
     allowedHeaders: 'Content-Type,Authorization', // Include 'Authorization' here
   }));
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "https://fs4949.netlify.app");
+    res.header("Access-Control-Allow-Origin", "https://fs2010.netlify.app");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
