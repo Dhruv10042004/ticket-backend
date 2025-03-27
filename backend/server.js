@@ -8,7 +8,7 @@ const PORT =process.env.PORT ||8000
 connectDB()
 const app=express()
 app.use(cors({
-    origin: 'https://fs4949.netlify.app', // Replace with your frontend's origin
+    origin: 'https://fs2010.netlify.app', // Replace with your frontend's origin
     methods: 'GET,POST,PUT,DELETE',
     allowedHeaders: 'Content-Type,Authorization', // Include 'Authorization' here
   }));
